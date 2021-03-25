@@ -61,14 +61,14 @@ int main(int argc, const char **argv)
     float end_x;
     float end_y;
 
-    std::cout<<"Staring x coord: ";
-    std::cin>>start_x;
-    std::cout<<"Staring y coord: ";
-    std::cin>>start_y;
-    std::cout<<"Ending x coord: ";
-    std::cin>>end_x;
-    std::cout<<"Ending y coord: ";
-    std::cin>>end_y;
+    std::cout << "Staring x coord: "<<std::endl;
+    std::cin >> start_x;
+    std::cout << "Staring y coord: "<<std::endl;
+    std::cin >> start_y;
+    std::cout << "Ending x coord: "<<std::endl;
+    std::cin >> end_x;
+    std::cout << "Ending y coord: "<<std::endl;
+    std::cin >> end_y;
     
     // Build Model.
     RouteModel model{osm_data};
