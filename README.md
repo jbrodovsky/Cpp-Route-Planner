@@ -1,19 +1,8 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This is a project I completed as part of Udacity's C++ nanodegree program. In this project I implemented the A* search algorithm to find a route between two points on an Open Street Map sample map shown below.
 
 <img src="map.png" width="600" height="450" />
-
-## Cloning
-
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
-```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
